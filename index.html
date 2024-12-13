@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio HTML</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rowshan.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
     <link rel="stylesheet" href="portfolio.style.css">
 </head>
 <body>
@@ -12,21 +12,29 @@
     <div id="header">
         <div class="container">
             <nav>
-             <img src="logo.png" class="logo">
-             <ul>
+             <!-- <img src="logo.png" class="logo"> -->
+             <h1 class="logo">Ro<span>wshan.</span></h1>
+             <ul class="menu-list">
+                <li class="cancel-btn">*</li>
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
              </ul>
+             <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+                
+             </div>
             </nav>
             <div class="hero-section">
-                <div class="header-text">
+                <div class="hero-text">
                     <p>Wed Developer</p>
                     <h1>Hi, I'm <span>Roshan</span><br> From Narang Mandi</h1>
                 </div>
-                <img src="my-portfolio.jpg" alt="">
+                <div class="hero-img">
+                    <img src="my-portfolio.jpg" alt="picture">
+                </div>
             </div>
         </div>
     </div>
@@ -35,14 +43,14 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="my-portfolio.jpg" >
+                    <img src="my-portfolio.jpg" alt="portfolio picture" >
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title heading-animation">About Me</h1>
-                    <p class="text font-animation">Hi, I’m [Your Name], a passionate front-end web developer and software engineering student at Dyal Singh College. I love crafting beautiful, responsive websites and bringing ideas to life using modern technologies. With expertise in HTML, CSS, JavaScript, React.js, and Bootstrap, I specialize in building user-friendly web interfaces that not only look great but also provide seamless functionality. I enjoy turning complex problems into elegant solutions and always strive for clean, efficient code.  Currently, I’m working on expanding my knowledge in backend development to become a full-stack developer. I’m also open to opportunities where I can contribute to impactful projects and grow as a professional. 
+                    <p class="text font-animationi">Hi, I’m [Your Name], a passionate front-end web developer and software engineering student at Dyal Singh College. I love crafting beautiful, responsive websites and bringing ideas to life using modern technologies. With expertise in HTML, CSS, JavaScript, React.js, and Bootstrap, I specialize in building user-friendly web interfaces that not only look great but also provide seamless functionality. I enjoy turning complex problems into elegant solutions and always strive for clean, efficient code.  Currently, I’m working on expanding my knowledge in backend development to become a full-stack developer. I’m also open to opportunities where I can contribute to impactful projects and grow as a professional. 
 
                     </p>
-                    <div class="tab-titles fade-in">
+                    <div class="tab-titles fade-ini">
                         <p class="tab-links active-link"  onclick="openTab('skills')">Skills</p>
                         <p class="tab-links"  onclick="openTab('experience')">Experience</p>
                         <p class="tab-links"  onclick="openTab('education')">Education</p>
@@ -78,17 +86,18 @@
         <div class="services-list">
             <div class="scale-box">
                 <h2>Web Design</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error pariatur, adipisci rerum, delectus facilis ipsam cum.</p>
+                <p>I design websites that look great and function seamlessly on all devices, from desktops to mobile phones.</p>
                 <a href="#">Learn More</a>
             </div>
             <div class="scale-box">
-                <h2>UI/UX Design</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error pariatur, adipisci rerum, delectus facilis ipsam cum.</p>
+                <h2>Custom Web Development</h2>
+                <p>I build custom front-end solutions using HTML, CSS, JavaScript, and frameworks like React.js to meet unique business needs.</p>
                 <a href="#">Learn More</a>
             </div>
             <div class="scale-box">
-                <h2>App Design</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error pariatur, adipisci rerum, delectus facilis ipsam cum.</p>
+                <h2> Single-Page Applications</h2>
+                <p>
+                    I specialize in building dynamic, fast-loading single-page applications using React.js.</p>
                 <a href="#">Learn More</a>
             </div>
         </div>
@@ -100,27 +109,27 @@
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
             <div class="work scale-box">
-                <img src="work-1.png" >
+                <img src="work-1.png" alt="picture">
                 <div class="layer">
                     <h3>Social Media App</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, explicabo.</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="#" title="icon"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work scale-box">
-                <img src="work-2.png" >
+                <img src="work-2.png" alt="picture" >
                 <div class="layer">
                     <h3>Music App</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, explicabo.</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="#" title="icon"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work scale-box">
-                <img src="work-3.png" >
+                <img src="work-3.png" alt="picture" >
                 <div class="layer">
                     <h3>Online Shopping App</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, explicabo.</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="#" title="icon"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
@@ -132,13 +141,13 @@
         <div class="contact-list">
         <div class="contact-col-1">
             <h1 class="sub-title">Contact Me</h1>
-            <p>roshanmalik636@gmail.com</p>
-            <p>03102567631</p>
+            <p class="text">roshanmalik636@gmail.com</p>
+            <p class="text">03102567631</p>
             <div class="social-icons">
-                <a href="#"><i class="fa fa-facebook-square"></i></a>
-                <a href="#"><i class="fa fa-twitter-square"></i></a>
-                <a href="#"></a>
-                <a href="#">O</a>
+                <a href="#" title="icon"><i class="fa fa-facebook-square"></i></a>
+                <a href="#" title="icon"><i class="fa fa-twitter-square"></i></a>
+                <!-- <a href="#"></a>
+                <a href="#">O</a> -->
                 
             </div>
             <a href="my-cv.pdf" download class="btn2">Download CV</a>
@@ -154,12 +163,22 @@
     </div>
  </div> 
  <div class="copyright">
-           <p>Copyright Kevin<i class="fa-regular fa-copyright"></i>. Made with <i class="fa-solid fa-heart"></i> by easy tutorials</p> 
+           <p>Copyright Rowshan<i class="fa-regular fa-copyright"></i>. Made with <i class="fa-solid fa-heart"></i> Malik </p> 
 </div>
 </div>          
     <script>
         const tabLinks = document.getElementsByClassName('tab-links');
         const tabContents = document.getElementsByClassName('tab-contents');
+        const menuBtn = document.querySelector(".menu-btn");
+        const menuList = document.querySelector(".menu-list");
+        const cancelBtn = document.querySelector(".cancel-btn");
+
+        menuBtn.addEventListener("click", () => {
+            menuList.style.right = "0px";
+        })
+        cancelBtn.addEventListener("click", () => {
+            menuList.style.right = "-150px";
+        })
     function openTab(tabName){
         
             for (tabLink of tabLinks) {
@@ -173,6 +192,7 @@
         event.currentTarget.classList.add('active-link')
         document.getElementById(tabName).classList.add('active-tab')
 }
+
     
     </script>
 </body>
